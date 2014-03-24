@@ -1,0 +1,22 @@
+.separator {
+  border: 0;
+  width: 80%;
+  color: #666699;
+  background-color: #666699;
+  height: 8px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+
+.stepheading {
+  color: #666699;
+}
+
+.fgrouplabel label {
+  display: none;
+}
+
+.mform .fitem fieldset.felement {
+  margin-left: 0;
+}

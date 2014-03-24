@@ -1,0 +1,40 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+
+<script type="text/javascript">
+
+    var counter = 0;
+    var t = setInterval( function() { check_for_jquery() }, 100 );
+
+    function check_for_jquery() {
+        /*
+         needed for bug in firefox 'jQuery not defined'
+         */
+        counter++;
+        if(counter > 100) {
+            alert("Can't load javascript library");
+            stop_timer();
+        }
+        if( typeof jQuery !== "undefined" ) {
+            stop_timer();
+
+            $(document).ready(function() {
+                init();
+            });
+         }
+    }
+
+    function stop_timer() {
+        clearInterval(t);
+    }
+
+    var temprecords = new Array();
+    var records = new Array();
+    var content_node = null;
+    var parameters = null;
+
+</script>
+
+<h2>T877 Image Bank</h2>
+
+<div class="dataplus_record_navigation">##Record navigation##</div>
+<div class="dataplus_record_count">##Record count##</div>

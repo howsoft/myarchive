@@ -1,0 +1,9 @@
+div#dataplus_record_form h1{
+    font-size: 1em;
+}
+
+div.instruction {
+    padding-left: 6em;
+    font-weight: bold;
+    font-style: italic;
+}

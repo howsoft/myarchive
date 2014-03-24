@@ -1,0 +1,91 @@
+#summary_table {
+  border: solid 1px #dedede;
+  border-collapse: collapse;
+  background-color: #f7f0d9;
+}
+
+div.dataplus_record, div.dataplus_comment{
+    margin-bottom: 2em;
+}
+
+div.dataplus_record table.record_template, div.dataplus_comment table.dataplus_comment_output {
+    border-top: 1px solid #ede9e0;
+}
+
+div.dataplus_record table.record_template tr, div.dataplus_comment table.dataplus_comment_output tr {
+    border-bottom: 1px solid #ede9e0;
+}
+
+div.dataplus_record_count, div.dataplus_record_navigation, div.dataplus_search_amend{
+    text-align: center;
+}
+
+div.true {
+  background-color: #dddddd;
+  float: left;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  font-size: 0.8em;
+  text-align: center;
+  color: #666699;
+  font-weight: bold;
+  padding-top: 4px;
+  
+}
+
+div.true_b {
+  background-color: #9999ff;
+  float: left;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  font-size: 0.8em;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 4px;
+  
+}
+
+
+div.false {
+  background-color: #dedeef;
+  float: left;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  font-size: 0.7em;
+
+}
+
+span.true {
+  font-weight: bold;
+  color: #996666;
+}
+
+span.false {
+  font-weight: bold;
+  color: #666699;
+}
+
+div.barcontainer {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 450px;
+  border: solid 1px #cccccc;
+}
+
+.partlabel {
+  color: #666699;
+  font-weight: bold;
+}
+
+div.intro {
+  font-style: italic;
+  background-color: #f7f0d9;
+  color: #003366;
+  font-size: 0.9em;
+  padding: 0.5em;
+}

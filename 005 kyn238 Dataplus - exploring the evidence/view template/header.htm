@@ -1,0 +1,41 @@
+<script type="text/javascript">
+var temprecords = new Array();
+var records = new Array();
+var content_node = null;
+
+function getParams(theurl) {
+
+    var map = {};
+
+theurl.replace(/[?&]+([^=&]+)(=[^&]*)?/gi,
+function(m, match1, match2) {
+    if( typeof match2 !== "undefined" && match2 !== "") {
+    map[match1] = match2.substring(1);
+    }
+}
+);
+
+return map;
+}
+
+var referrer_params = getParams("" + document.referrer);
+var thisdoc_params = getParams("" + document.location);
+
+if(referrer_params.id !== thisdoc_params.id) {
+    /*
+     request came from outside the dataplus
+     but double-check there is no 'mode' parameter so
+     we don't end up with more than one
+     */
+    if( typeof thisdoc_params.mode === "undefined" ) {
+    document.location = document.location + "&mode=insert";
+    }
+
+}
+
+</script>
+
+    <br/>
+
+    <h4 class="bluetitle">Click the 'Add record' tab to add another entry.</h4>
+    <br/>

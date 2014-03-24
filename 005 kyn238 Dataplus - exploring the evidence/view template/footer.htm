@@ -1,0 +1,167 @@
+<div id="dp_content"></div>
+
+<script type="text/javascript">
+
+    String.prototype.trim = function() {
+        return this.replace(/^\s+|\s+$/, '');
+    };
+
+    function striphtml(html)
+    {
+        var tmp = document.createElement("DIV");
+        tmp.innerHTML = html;
+        return tmp.textContent||tmp.innerText;
+    }
+
+    function getUrlVars() {
+        var map = {};
+        var parts = window.location.search.replace(/[?&]+([^=&]+)(=[^&]*)?/gi, function(m,key,value) { map[key] = (value === undefined) ? true : value.substring(1); });
+        return map;
+    }
+
+    function setVars(y_content_node){
+        content_node = y_content_node;
+    }
+
+
+    ////////// RECORD CONSTRUCTOR /////////////////////////////////////
+    function Record(field_of_reference, text, more, creator, creatorid, record_number, the_id, deletecode, editcode){
+
+        this.field_of_reference = field_of_reference;
+        this.text = text;
+        this.more = more;
+        this.creator = creator;
+        this.creatorid = creatorid;
+        this.record_number = record_number;
+        this.the_id = the_id; //id used by Dataplus - NOT sequential, since records may be deleted
+        this.yahooref = null;
+        this.html = record_html;
+        this.deletecode = deletecode;
+        this.editcode = editcode;
+    }
+    ////////// end of RECORD CONSTRUCTOR ////////////////////////
+
+    function record_html() {
+
+        var s = "<div class='record_div'>";
+
+        s += "<div>";
+        s += "<span class='namespan'>" + this.creator + "</span>";
+        s += "<span class='text_span'>" + this.text + "</span>";
+        s += "</div>";
+
+        s += this.editcode;
+        s += this.deletecode;
+        s += "</div>";
+
+        return s;
+    }
+
+    function show_defaultview(){
+
+        var temp_array = new Array();
+
+        for(var i=0; i<records.length; i++) {
+            if(records[i].field_of_reference.trim() === "Physical") {
+                temp_array.push(records[i]);
+            }
+        }
+
+        for(var i=0; i<records.length; i++) {
+            if(records[i].field_of_reference.trim() === "Behavioural") {
+                temp_array.push(records[i]);
+            }
+        }
+
+        for(var i=0; i<records.length; i++) {
+            if(records[i].field_of_reference.trim() === "Economic") {
+                temp_array.push(records[i]);
+            }
+        }
+
+        for(var i=0; i<records.length; i++) {
+            if(records[i].field_of_reference.trim() === "Service user/health worker") {
+                temp_array.push(records[i]);
+            }
+        }
+
+        records = temp_array;
+
+        var current_category = "";
+
+        var titles = {
+
+            "Physical": "Evidence of physical causes/effects/responses",
+            "Behavioural": "Evidence of behavioural causes/effects/responses",
+            "Economic": "Evidence of economic causes/effects/responses",
+            "Service user/health worker": "Viewpoint: service user or healthcare worker?"
+        };
+
+        for(var i=0; i<records.length; i++) {
+
+            var record = records[i];
+            var record_html = record.html();
+
+            if(record_html === "") {
+                continue;
+            }
+            if(record.text === "") {
+                continue;
+            }
+
+            var cat_text = record.field_of_reference.trim() == "" ? "none specified" : record.field_of_reference;
+
+            if(record.field_of_reference !== current_category) {
+
+                if(current_category !== "") {
+                    content_node.append("<hr style='clear: both;' />");
+                }
+
+                content_node.append("<span class='category'>" + titles[cat_text] + "</span>");
+                current_category = record.field_of_reference;
+            }
+
+            content_node.append(record_html);
+
+        } // end of loop
+    }
+
+
+    /* /////// EXECUTION STARTS HERE /////////// */
+
+    if(typeof temprecords !== "undefined") {
+
+        for(var i=0; i<temprecords.length; i++){
+
+            records.push(
+                    new Record(
+                            temprecords[i][0],
+                            temprecords[i][1],
+                            temprecords[i][2],
+                            temprecords[i][3],
+                            temprecords[i][4],
+                            temprecords[i][5],
+                            temprecords[i][6],
+                            temprecords[i][7],
+                            temprecords[i][8]
+                    )
+            );
+        }
+
+        temprecords = null; // maybe save a bit of memory
+
+        YUI().use('node', function(Y){
+
+            var y_content_node = Y.one("#dp_content");
+            Y.on("available", startDisplay, "body", Y);
+
+            function startDisplay(e){
+
+                setVars(y_content_node);
+                show_defaultview();
+            }
+        });
+
+    } /* end of if typeof temprecords .. */
+
+</script>

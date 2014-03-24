@@ -1,0 +1,43 @@
+.thumbnail {
+    /*  float: left; */
+    display: inline-block;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    border: solid 1px gray;
+}
+
+.thumbnail img {
+    width: 100px;
+}
+
+.title_div {
+    /*
+       width + (padding * 2) should equal the
+       width of the thumbnail
+    */
+    font-size: 0.8em;
+    word-wrap:break-word;
+    width: 90px;
+    height: 20px;
+    padding: 5px;
+    line-height: 110%;
+    background-color: #efefef;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#dp_content {
+    width: 80%;
+    min-width: 40%;
+
+}
+
+.category {
+    font-weight: bold;
+    color: #666699;
+}
+
+h2 {
+    color: #666699;
+}

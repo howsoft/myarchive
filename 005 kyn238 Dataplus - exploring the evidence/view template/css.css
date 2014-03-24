@@ -1,0 +1,26 @@
+.record_div {
+    border: solid 1px #cccccc;
+    margin-bottom: 2px;
+    padding: 0.5em;
+    background-color: #f7f0d9;
+}
+
+.category {
+    font-size: 1.2em;
+    font-style: bold;
+    color: #003366;
+}
+
+.namespan {
+    color: #666699;
+    font-size: 0.8em;
+}
+
+.text_span {
+    font-size: 0.9em;
+}
+
+.bluetitle {
+    color: #666699;
+
+}

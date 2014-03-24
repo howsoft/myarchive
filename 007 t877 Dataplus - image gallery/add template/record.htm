@@ -1,0 +1,32 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+
+<script type="text/javascript">
+
+    var counter = 0;
+    var t = setInterval( function() { check_for_jquery() }, 100 );
+
+    function check_for_jquery() {
+        /*
+         needed for bug in firefox 'jQuery not defined'
+         */
+        counter++;
+        if(counter > 100) {
+            alert('Could not load javascript library');
+            stop_timer();
+        }
+        if( typeof jQuery !== "undefined" ) {
+            stop_timer();
+            $(document).ready(function() {
+                init();
+            });
+         }
+     }
+
+    function stop_timer() {
+        clearInterval(t);
+    }
+
+</script>
+
+
+<span id="image_span">[[image]]</span>[[title]] [[reference]] [[category]] **save****cancel**
