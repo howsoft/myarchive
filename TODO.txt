@@ -1,0 +1,146 @@
+
+WORDPRESS
+get details from Gareth's email
+
+
+K313
+====
+Saving text in cubes activity
+-----------------------------
+Doesn't seem to be urgent. Need to know a bit more.
+
+<========================================================================================>
+
+KYN238
+======
+unit 17 asset brief is saved in 'WORK' folder on desktop
+
+Interactive Diagram: Type 1 Diabetes
+------------------------------------
+updates from Penny - mail in paper folder
+check it doesn't break alternative formats
+
+Introducing the cast
+--------------------
+Thumbnail images and some text - each goes to a more detailed view of the particular person in question.
+- need to discuss this with Vicky in more detail 
+
+Postit activity with see-saw (weighing scales) visual feedback
+--------------------------------------------------------------
+[Darius is doing this now]
+need to get up-to-date code for Darius
+prototype needs to be ready for meeting (18 March?)
+
+--------------------------------------------------------------
+
+Dataplus: Psychology Questionnaire
+----------------------------------
+- issue about view when first visiting: probably fixed by changing settings
+
+Dataplus: Compassion in Care
+----------------------------
+Need to finish off - first investigating image problems.
+May have to take the risk of image problems - in which case inform Helpdesk+
+
+Dataplusses (general):
+----------------------
+Penny will send list of ones which need to be cleared of records.
+[some done - refer to Penny's mail of 28 Feb to see which still need doing]
+
+<========================================================================================>
+
+Y031
+====
+Text in tables activity.
+- Project manager: Lindsey Smith
+- see mail from Rachel Wild 24 Feb with link to VLE example
+
+<========================================================================================>
+
+Y033
+==== Lindsey for deadlines
+Open Design Studio - preparing the 14B presentation : deadline Wednesday 12 March (??)
+---------------------------------------------------
+
+share : hsc-y033 (nighthawk/palmcreeper)
+
+Need to get spreadsheet from Online Services with Tutor/Student Allocations (the 'TSA table').
+They get it from Circe.
+Database is on chimp : open_design_studio_y033_13J
+Play on dev/acceptance server. DB is shared with other presentations - so make sure you have changed the presentation code
+in appropriate places.
+The PHP script ( importTSA.php ? ) fills the:
+ .. groupmembers and
+ .. groups 
+ tables. 
+ If there are missing oucus, can get those from the VLE site (click on the Users link)
+ Check Sams files.
+
+Open Design Studio - setting up for examiners
+---------------------------------------------
+check if Adrian had a response from exams
+what actually gets assessed?
+who can see what?
+
+
+
+<========================================================================================>
+
+T176 14B
+========
+Module map (not really a module map) to convert to html5
+--------------------------------------------------------
+[Darren doing this now]
+- perhaps SVG?
+see link in mail from Jane: 29 January
+
+<========================================================================================>
+
+T276
+====
+Swing (pendulum) activity
+--------------------------
+need to add code to degrade in IE8
+need to submit for testing
+apologise to Jon Owen and ask if he wants to submit reworked images
+
+
+<========================================================================================>
+
+T319
+====
+
+Drag and Drop activity
+----------------------
+24 cells? drag text into appropriate cells
+worry about size - could it be split?
+Paul Whittingham will send spec.
+
+Mind Map
+--------
+see Jane's mail: 23 March for some specs.
+
+<========================================================================================>
+
+T877
+====
+
+Dataplus
+--------
+started by .. worked on by Jane
+needs reworking for a future presentation
+100 students max. (so should be ok for javascript reading-in of record data)
+
+VLE Blog
+--------
+Can a structure be imposed? At present, students' entries for different parts of the course are mixed up with each other.
+- is the Glossary tool an alternative?
+- Robert Wood suggested a solution using existing VLE functionality: just divide into separate blogs and maybe have a way-in page.
+
+<========================================================================================>
+
+E304
+====
+Reply to Sarah North about highlighting activities.
+mail: 31 January
+
