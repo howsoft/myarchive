@@ -1,0 +1,70 @@
+.defaulttexttable
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+.defaulttexttable th 
+{
+	font-size:1em;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#296e8f;
+	color:#ffffff;
+	vertical-align: top;
+	word-wrap: break-word;
+}
+
+.defaulttexttable th, .defaulttexttable td 
+{
+	font-size:1em;
+	border:1px solid #296e8f;
+	vertical-align: top;
+	word-wrap: break-word;
+}
+
+.defaulttexttable textarea {
+    height: 50px;
+    width: 150px;
+    resize: none;
+    display: block;
+}
+
+.defaulttexttable td:first-child
+{
+	width: 100%;
+}
+
+.fixed_table_layout {
+	table-layout: fixed;
+}
+
+.buttonContainer {
+	width:100%;
+	text-align: right;
+}
+
+.printContainer {
+	width:100%;
+	text-align: right;
+}
+
+div.tempdiv {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+td img.image {
+    width: 125px;
+    display:block;	
+}
+
+.borderTop {
+    border-top: 2px solid!important;
+}
