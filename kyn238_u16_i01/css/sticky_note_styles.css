@@ -1,0 +1,335 @@
+
+body {
+    font-size:100%;
+    line-height:1.125em;
+}
+ .container{
+    left:0px;
+    top:0px;
+    position:absolute;
+    overflow:hidden;
+    border: none;
+}
+.noSelectText * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default !important;
+}
+
+.note-text{
+    -webkit-touch-callout: text !important;
+    -webkit-user-select: text !important;
+    -khtml-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+}
+
+.hidden{
+    visibility: hidden;
+}
+    
+#mainDiv{
+    left:0px;
+    top:0px;
+    position:absolute;
+}
+
+.body-style{
+        font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.sidebar{
+  width:150px;
+  height:600px;
+  position: absolute;
+  left:0;
+  top:10px;
+  background-color:#ffffff;
+  padding:5px;
+  font-family: verdana;
+  font-size: small; 
+}
+.pinboard, canvas{
+
+  position: absolute;
+  left:160px;
+  top:10px;
+  border:solid 2px transparent;
+}
+.pinboard:focus{
+ /*   border:solid 2px blue;*/
+}
+
+.postItNote{
+  line-height: normal;
+  padding: 2px 0px 0px 2px;
+  width:100px;
+  height:100px;
+  position: absolute;
+  left:0px;
+  top:0px;
+  background-color:yellow;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  cursor: move;
+  overflow: hidden;
+  word-wrap: break-word;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  font-size: small;
+  cursor: move;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border:solid 2px transparent;
+  
+}
+.divLink{
+    width:100%;
+    height:100%;
+    display: inline-block;
+}
+.testArea{
+  width:100px;
+  top:-100px;
+  left:-100px;
+  border:1px;
+  clear: both;
+  background-color: #ffffff;
+  position: absolute;
+  word-wrap: break-word;
+  font-size: small;
+  visibility: hidden;
+  overflow:hidden;
+}      
+
+.colour-select{
+  width:150px;
+}
+
+.note-text{
+  padding: 2px 0px 0px 2px;
+  font-family: Comic Sans, Comic Sans MS, cursiver;
+  font-size: small;
+  width:100px;
+  height:100px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #fff7c6;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+
+.add-button{
+  margin-top:10px;
+  width:105px;
+}
+
+
+.yellow-option{
+  background-color:#fff7c6;
+}
+.blue-option{
+  background-color:#a2d7db;
+}
+.red-option{
+  background-color:#f8c7dc;
+
+}
+.green-option{
+  background-color:#b8dab7;
+}
+
+.option-box{
+  width:16px;
+  height:16px;
+  border-width:2px;
+  border-style:inset;
+  float: left;
+  margin:3px;
+}
+
+.side-bar-block{
+  clear: both;
+  padding-left: 10px;
+  padding-bottom:5px;
+  margin-bottom:20px;  
+}
+
+.shadow {
+  -moz-box-shadow: 3px 3px 10px #000000;
+  -webkit-box-shadow: 3px 3px 10px #000000;
+  box-shadow: 3px 3px 10px #000000;
+  /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+  }
+
+
+.popupBg{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:800px;
+    height:650px;
+    background-color: rgba(0,0,0,.2);
+
+}
+
+.popup{
+    position:absolute;
+    width:300px;
+    height:300px;
+    top:100px; 
+    left:250px;
+    background-color: lightgray;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.popup hr, .popup p {
+    margin:10px;
+}
+
+.popup select{
+    width:150px;
+}
+.popup label{
+    display:inline-block;
+    width:120px;
+}
+.buttonsP{
+    text-align: center;
+}
+.buttonsPP{
+    text-align: right;
+}
+
+.buttonsP input, .buttonsPP input {
+    width:80px;
+}
+
+.popupShadow{
+    position:absolute;
+    width:300px;
+    height:300px;
+    top:110px; 
+    left:260px;
+    background-color: black;
+    border: none;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 5px;
+}
+  
+.theTitle{
+    position:absolute;
+    height:0px;
+    top:20px;
+    left:160px;
+    background-color: transparent;
+    text-align: center;
+    margin:auto;
+}
+#titleTextId{
+    background-color: #fff7c6;
+    border:solid 1px black;
+    font-size: 2em;
+    display:inline-block;
+    padding:10px;
+    height:30px;
+}
+
+.titels {
+	position: absolute;
+	left: 160px;
+	width: 710px;
+        height: 595px;
+	top: 20px;
+	font-family: arial;
+}
+
+.text1 {
+    position: absolute;
+    top: 5px;
+    left: 380px;
+}
+
+.text2 {
+    position: absolute;
+    top: 310px;
+    left: 5px;
+}
+
+.text3 {
+    position: absolute;
+    top: 310px;
+    right: 5px;
+}
+
+.text4 {
+    position: absolute;
+    bottom: 20px;
+    left: 380px;
+}
+
+.titels .left, .titelsB .left{
+	float:left;
+	padding-left:30px;
+}
+
+.titels .right, .titelsB .right{
+	float:right;
+	padding-right:30px;
+}
+
+.titelsB{
+	position: absolute;
+	left: 160px;
+	width: 710px;
+	text-align:center;
+	top: 573px;
+	font-weight: bold;
+	font-family: arial;
+	color: #fff;
+	display:none;
+}
+
+  @media print{
+      .sidebar{
+          display: none;
+      }
+
+      .pinboard{
+        left:10px;
+        display: block;
+      }
+      .theTitle{
+          left:0px;
+      }
+
+      .shadow {
+        /* For IE 8 */
+        -ms-filter: "";
+        /* For IE 5.5 - 7 */
+        filter: 0;
+         -moz-box-shadow:none;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+      }
+
+      .postItNote{
+        display: block;
+        background-color:transparent;
+      }
+
+    
+ }
