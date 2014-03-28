@@ -1,0 +1,89 @@
+﻿Wow! notepad++ opened up for my git message
+
+I've added a python directory and script.
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   kyn238_u16_i01/css/sticky_note_styles.css
+#	new file:   kyn238_u16_i01/css/sticky_notes_styles_ie8.css
+#	new file:   kyn238_u16_i01/data/sticky_note_data.js
+#	new file:   kyn238_u16_i01/grafical_191.0.zip
+#	new file:   kyn238_u16_i01/graphics/perspectives_bg.png
+#	new file:   kyn238_u16_i01/graphics/perspectives_bg_small.png
+#	new file:   kyn238_u16_i01/graphics/webthumbnail.jpg
+#	new file:   kyn238_u16_i01/index.xhtml
+#	new file:   kyn238_u16_i01/kyn238_u16_i01.zip
+#	new file:   kyn238_u16_i01/nbproject/private/private.properties
+#	new file:   kyn238_u16_i01/nbproject/private/private.xml
+#	new file:   kyn238_u16_i01/nbproject/project.properties
+#	new file:   kyn238_u16_i01/nbproject/project.xml
+#	new file:   kyn238_u16_i01/scripts/excanvas.js
+#	new file:   kyn238_u16_i01/scripts/json.js
+#	new file:   kyn238_u16_i01/scripts/lib.js
+#	new file:   kyn238_u16_i01/scripts/seesaw.js
+#	new file:   kyn238_u16_i01/scripts/sticky_note_scripts.js
+#	new file:   kyn238_u16_i01/vleapi.1.js
+#	new file:   kyn238_u16_i01_broken_in_ie8/css/sticky_note_styles.css
+#	new file:   kyn238_u16_i01_broken_in_ie8/css/sticky_notes_styles_ie8.css
+#	new file:   kyn238_u16_i01_broken_in_ie8/data/sticky_note_data.js
+#	new file:   kyn238_u16_i01_broken_in_ie8/graphics/perspectives_bg.png
+#	new file:   kyn238_u16_i01_broken_in_ie8/graphics/perspectives_bg_small.png
+#	new file:   kyn238_u16_i01_broken_in_ie8/graphics/webthumbnail.jpg
+#	new file:   kyn238_u16_i01_broken_in_ie8/index.xhtml
+#	new file:   kyn238_u16_i01_broken_in_ie8/kyn238_u16_i01.zip
+#	new file:   kyn238_u16_i01_broken_in_ie8/kyn238_u16_i01.zip.jpg
+#	new file:   kyn238_u16_i01_broken_in_ie8/nbproject/private/private.properties
+#	new file:   kyn238_u16_i01_broken_in_ie8/nbproject/project.properties
+#	new file:   kyn238_u16_i01_broken_in_ie8/nbproject/project.xml
+#	new file:   kyn238_u16_i01_broken_in_ie8/scripts/excanvas.js
+#	new file:   kyn238_u16_i01_broken_in_ie8/scripts/json.js
+#	new file:   kyn238_u16_i01_broken_in_ie8/scripts/lib.js
+#	new file:   kyn238_u16_i01_broken_in_ie8/scripts/seesaw.js
+#	new file:   kyn238_u16_i01_broken_in_ie8/scripts/sticky_note_scripts.js
+#	new file:   kyn238_u16_i01_broken_in_ie8/stub_SC.xml
+#	new file:   kyn238_u16_i01_broken_in_ie8/vleapi.1.js
+#	new file:   kyn238_u16_i02/iframe.html
+#	new file:   kyn238_u16_i02/index.xhtml
+#	new file:   kyn238_u16_i02/jquery-1.9.1.min.js
+#	new file:   kyn238_u16_i02/kyn238_u16_i02.zip
+#	new file:   kyn238_u16_i02/kyn238_u16_i02.zip.jpg
+#	new file:   kyn238_u16_i02/printable_version-1.0.png
+#	new file:   kyn238_u16_i02/texttables-1.0.css
+#	new file:   kyn238_u16_i02/texttables-1.0.js
+#	new file:   kyn238_u16_i02/vleapi.1.js
+#	new file:   python scripts/example of walking a directory/replace_sams.py
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    activity_191.0/activity_191.0.zip
+#	deleted:    activity_191.0/css/sticky_note_styles.css
+#	deleted:    activity_191.0/css/sticky_notes_styles_ie8.css
+#	deleted:    activity_191.0/data/sticky_note_data.js
+#	deleted:    activity_191.0/graphics/perspectives_bg.png
+#	deleted:    activity_191.0/graphics/perspectives_bg_small.png
+#	deleted:    activity_191.0/graphics/webthumbnail.jpg
+#	deleted:    activity_191.0/index.xhtml
+#	deleted:    activity_191.0/nbproject/private/private.properties
+#	deleted:    activity_191.0/nbproject/project.properties
+#	deleted:    activity_191.0/nbproject/project.xml
+#	deleted:    activity_191.0/scripts/excanvas.js
+#	deleted:    activity_191.0/scripts/json.js
+#	deleted:    activity_191.0/scripts/lib.js
+#	deleted:    activity_191.0/scripts/seesaw.js
+#	deleted:    activity_191.0/scripts/sticky_note_scripts.js
+#	deleted:    activity_191.0/stub_SC.xml
+#	deleted:    activity_191.0/vleapi.1.js
+#	deleted:    activity_200.0/iframe.html
+#	deleted:    activity_200.0/index.xhtml
+#	deleted:    activity_200.0/jquery-1.9.1.min.js
+#	deleted:    activity_200.0/printable_version-1.0.png
+#	deleted:    activity_200.0/texttables-1.0.css
+#	deleted:    activity_200.0/texttables-1.0.js
+#	deleted:    activity_200.0/vleapi.1.js
+#
+

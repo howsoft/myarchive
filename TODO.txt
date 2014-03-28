@@ -96,6 +96,12 @@ see link in mail from Jane: 29 January
 
 <========================================================================================>
 
+T215 Wordpress Customization
+----------------------------
+prepare for meeting with Gareth: see email from Gareth 17 March 2014
+
+<========================================================================================>
+
 T276
 ====
 Swing (pendulum) activity
@@ -103,6 +109,8 @@ Swing (pendulum) activity
 need to add code to degrade in IE8
 need to submit for testing
 apologise to Jon Owen and ask if he wants to submit reworked images
+
+Come up with some wording for: Carol Morris and David Sharp - to explain the limitations of the swing and how it might be used. Show this to Stephen Jones before sending to Carol and David.
 
 
 <========================================================================================>
@@ -130,6 +138,7 @@ Dataplus
 started by .. worked on by Jane
 needs reworking for a future presentation
 100 students max. (so should be ok for javascript reading-in of record data)
+see mail from Frances Walton 26 March 2014
 
 VLE Blog
 --------

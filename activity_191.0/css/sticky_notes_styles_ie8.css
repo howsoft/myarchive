@@ -1,9 +1,0 @@
-.popupBg{
-    background-color: black;
-    filter: alpha(opacity=20);
-}   
-
-.popupShadow{
-    background-color: black;
-    filter: alpha(opacity=40);      
-}
