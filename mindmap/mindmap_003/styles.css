@@ -1,0 +1,90 @@
+
+body {
+    background-color: #dedeff;
+}
+
+#controls {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#the_canvas {
+    position: absolute;
+    width: 880px;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid 1px black;
+    z-index: 2;
+}
+
+#map {
+    /* background-color: #ffffff; */
+    position: absolute;
+    width: 880px;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 3;
+}
+
+#map_background {
+    background-color: #ffffff;
+    position: absolute;
+    width: 880px;
+    height: 600px;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.btn_close {
+
+    display: inline-block;
+    font-family: verdana;
+    color: #666666;
+    background-color: #efefef;
+    width: 8px;
+    padding: 2px;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    float: right;
+}
+
+.btn_join {
+    margin-left: 4px;
+    display: inline-block;
+    font-family: verdana;
+    cursor: pointer;
+    padding: 2px;
+    font-size: 8pt;
+    text-decoration: underline;
+}
+
+.nodetext {
+    position: relative;
+    font-family: verdana;
+    font-size: 8pt;
+    width: 90px;
+    height: 40px;
+}
+
+.nodediv {
+    position: absolute;
+    background-color: #dedede;
+    padding-top: 2px;
+    cursor: move;
+}
+
+#btn_add {
+    background-color: #fcefa1;
+}
+
+#btn_add_2 {
+    background-color: #cef594;
+}
+
+#btn_add_3 {
+    background-color: #efefef;
+}
