@@ -1,0 +1,103 @@
+<html>
+<head>
+
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="js.js"></script>
+
+    <style type="text/css">
+        body {
+      			
+			background-image:url('grille.png');
+			background-repeat: no-repeat;
+			background-color: #220011;
+			font-family: verdana;
+        }
+        textarea {
+            padding: 3em;
+        }
+
+        #btn_delete {
+            margin-right: 14em;
+        }
+
+        #instructions {
+            padding: 40px;
+            background-color: #efefef;
+            border: solid 1px #999999;   
+            font-size: 0.8em;
+        			
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom: 30px;
+			
+        }
+		#container {
+			text-align: center;
+			
+		}
+		a {
+			color: white;
+			font-size: 8pt;
+			text-decoration: none;
+		}
+    </style>
+
+</head>
+<body>
+
+<div id="container">
+<div id='instructions'>
+    PLEASE DON'T PASTE IN TEXT FROM A WORD-PROCESSOR<br/>
+    ------------------------------------------------<br/>
+    The recommended way is to make your file in Notepad<br/>
+    or some other plain-text editor, save it as a backup,<br/>
+    then copy from there and paste into the box below.<br/>
+    <br/>
+    The rules are:  <br/>
+    <br/>
+    - An oucu on a line on its own is assumed to be a tutor.<br/>
+    - No commas or anything but the oucu allowed on a tutor line.<br/>
+    - The oucus which come after a tutor are assumed to be students.  <br/>
+    - Students' oucus should be separated by commas                        <br/>
+    <br/>
+    When you have finished, you can click on the 'preview' button to<br/>
+    check that the students will be assigned correctly to their tutors.  <br/>
+    <br/>
+    When happy with the result: click the 'submit' button.<br/>
+    <br/>
+    Example, with two tutors hgd4 and ask3 and ten students:<br/>
+    --------------------------------------------------------     <br/>
+    <br/>
+    hgd4 <br/>
+    <br/>
+    asf3, lkj3, asd33, lkjs34<br/>
+    <br/>
+    ask3 <br/>
+    <br/>
+    ascf3, lckj3, ascd33, lkcjs34, ascf3, lckj3<br/>
+</div>
+
+    	
+     <textarea id='thetext' rows="24" cols="80"></textarea>
+          <br/><br/>
+     <input type="button" value="delete" id="btn_delete" />
+     <input type="button" value="preview" id="btn_preview" />
+     <input type="button" id="submit1" value="submit" />
+	 
+	 <br/><br/><a target="_blank" href="examiners.php">or - click here to view the examiners page without altering it</a>
+	 
+	 <br/><br/><a target="_blank" href="examiner_singular.php"> .. click here to view the single examiner's page</a>
+
+	 <form target="_blank" method='post' action="admin_process_oucus.php">
+	 <input type='hidden' id='txt2go' name='glob' />
+     </form>
+
+
+ <br/>
+<br/>
+
+</div>
+
+
+</body>
+</html>
