@@ -1,0 +1,18 @@
+div#dataplus_record_form h1{
+    font-size: 1em;
+}
+
+label {
+  margin-right: 2em;
+  color: #666699;
+  font-weight: bold;
+}
+
+.ftoggler, .fheader {
+  display: none;
+}
+
+#fitem_id_altImage {
+  display: none;
+}
+

@@ -1,0 +1,44 @@
+selecting all first column
+-------------------------
+Openness: 28
+Conscientiousness: 16
+Extroversion: 16
+Agreeableness: 32
+Sensitivity: 16
+--------------------------------------------*
+
+selecting all second column
+--------------------------
+Openness: 26
+Conscientiousness: 20
+Extroversion: 20
+Agreeableness: 28
+Sensitivity: 20
+--------------------------------------------*
+
+selecting all third column
+-------------------------
+Openness: 24
+Conscientiousness: 24
+Extroversion: 24
+Agreeableness: 24
+Sensitivity: 24
+--------------------------------------------*
+
+selecting all fourth column
+--------------------------
+Openness: 22
+Conscientiousness: 28
+Extroversion: 28
+Agreeableness: 20
+Sensitivity: 28
+--------------------------------------------*
+
+selecting all fifth column
+-------------------------
+Openness: 20
+Conscientiousness: 32
+Extroversion: 32
+Agreeableness: 16
+Sensitivity: 32
+--------------------------------------------*

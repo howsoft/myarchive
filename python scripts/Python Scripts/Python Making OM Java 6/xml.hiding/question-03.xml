@@ -1,0 +1,93 @@
+<!--
+Question Type = drag1
+Starting Order = a,b,c,d,e,f
+Correct Order = c,b,g,i,a,f
+-->
+<question class="elephant.testing.q22.Test">
+	<!-- ////////// SET TO SAME NUMBER AS NUMBER OF DRAG-N-DROP CHOICES ///////// -->
+	<scoring>
+		<marks>10</marks>
+	</scoring>
+	<layout>
+		<row height="480"/>
+		<column width="446"/>
+		<column width="146"/>
+	</layout>
+	
+	<box gridx="0" gridy="0" background="input" id="inputbox">
+		<gap/>
+  Place the following elements of a written plan in their recommended sequence from B624, Book 1, Session 2.
+  <gap/>
+		<table cols="2" rows="6" left="1">
+			<row>
+				<t>
+					<dragbox id="a1">Fish and chips and mushy peas</dragbox>
+				</t>
+				<t>
+					<dropbox id="a"/>
+					<image filePath="tick.gif" alt="ticked as correct" id="a_cb" display="no"/>
+				</t>
+			</row>
+			<row>
+				<t>
+					<dragbox id="b1">Contingency plans</dragbox>
+				</t>
+				<t>
+					<dropbox id="b"/>
+					<image filePath="tick.gif" alt="ticked as correct" id="b_cb" display="no"/>
+				</t>
+			</row>
+			<row>
+				<t>
+					<dragbox id="c1">Appendices</dragbox>
+				</t>
+				<t>
+					<dropbox id="c"/>
+					<image filePath="tick.gif" alt="ticked as correct" id="c_cb" display="no"/>
+				</t>
+			</row>
+			<row>
+				<t>
+					<dragbox id="d1">Introduction</dragbox>
+				</t>
+				<t>
+					<dropbox id="d"/>
+					<image filePath="tick.gif" alt="ticked as correct" id="d_cb" display="no"/>
+				</t>
+			</row>
+			<row>
+				<t>
+					<dragbox id="e1">Evaluation</dragbox>
+				</t>
+				<t>
+					<dropbox id="e"/>
+					<image filePath="tick.gif" alt="ticked as correct" id="e_cb" display="no"/>
+				</t>
+			</row>
+			<row>
+				<t>
+					<dragbox id="f1">Resource implications</dragbox>
+				</t>
+				<t>
+					<dropbox id="f"/>
+					<image filePath="tick.gif" alt="ticked as correct" id="f_cb" display="no"/>
+				</t>
+			</row>
+		</table>
+		<gap/>
+		<button action="actionSubmit" label="Check"/>
+		<button action="actionGiveUp" label="Skip this Question"/>
+	</box>
+	<box gridx="1" gridy="0" background="answer" id="answerbox" display="no">
+		<t id="wrong">Your answer is <t id="still">still</t> incorrect.</t>
+		<t id="right">Your answer is correct.</t>
+		<t id="pass">You passed on this question.</t>
+		<gap/>
+		<t id="feedback"/>
+		<gap/>
+		<t id="answer">
+  </t>
+		<button id="ok" action="actionOK" label="OK"/>
+		<button id="next" action="actionOK" label="Next" display="no"/>
+	</box>
+</question>

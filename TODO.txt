@@ -1,7 +1,11 @@
 
-WORDPRESS
-get details from Gareth's email
+E304
+====
+Reply to Sarah North about highlighting activities.
+mail: 31 January (phoned subsequently)
+Meet with Elaine to discuss specs in detail.
 
+<========================================================================================>
 
 K313
 ====
@@ -15,32 +19,20 @@ KYN238
 ======
 unit 17 asset brief is saved in 'WORK' folder on desktop
 
-Interactive Diagram: Type 1 Diabetes
-------------------------------------
-updates from Penny - mail in paper folder
-check it doesn't break alternative formats
+Drag and Drop table
+-------------------- 
+See my mail 1 May and Penny's mail with link to the table.
 
 Introducing the cast
 --------------------
 Thumbnail images and some text - each goes to a more detailed view of the particular person in question.
 - need to discuss this with Vicky in more detail 
 
-Postit activity with see-saw (weighing scales) visual feedback
 --------------------------------------------------------------
-[Darius is doing this now]
-need to get up-to-date code for Darius
-prototype needs to be ready for meeting (18 March?)
-
---------------------------------------------------------------
-
-Dataplus: Psychology Questionnaire
-----------------------------------
-- issue about view when first visiting: probably fixed by changing settings
 
 Dataplus: Compassion in Care
 ----------------------------
-Need to finish off - first investigating image problems.
-May have to take the risk of image problems - in which case inform Helpdesk+
+is it ok?
 
 Dataplusses (general):
 ----------------------
@@ -49,56 +41,10 @@ Penny will send list of ones which need to be cleared of records.
 
 <========================================================================================>
 
-Y031
-====
-Text in tables activity.
-- Project manager: Lindsey Smith
-- see mail from Rachel Wild 24 Feb with link to VLE example
-
-<========================================================================================>
-
-Y033
-==== Lindsey for deadlines
-Open Design Studio - preparing the 14B presentation : deadline Wednesday 12 March (??)
----------------------------------------------------
-
-share : hsc-y033 (nighthawk/palmcreeper)
-
-Need to get spreadsheet from Online Services with Tutor/Student Allocations (the 'TSA table').
-They get it from Circe.
-Database is on chimp : open_design_studio_y033_13J
-Play on dev/acceptance server. DB is shared with other presentations - so make sure you have changed the presentation code
-in appropriate places.
-The PHP script ( importTSA.php ? ) fills the:
- .. groupmembers and
- .. groups 
- tables. 
- If there are missing oucus, can get those from the VLE site (click on the Users link)
- Check Sams files.
-
-Open Design Studio - setting up for examiners
----------------------------------------------
-check if Adrian had a response from exams
-what actually gets assessed?
-who can see what?
-
-
-
-<========================================================================================>
-
-T176 14B
-========
-Module map (not really a module map) to convert to html5
---------------------------------------------------------
-[Darren doing this now]
-- perhaps SVG?
-see link in mail from Jane: 29 January
-
-<========================================================================================>
-
 T215 Wordpress Customization
 ----------------------------
 prepare for meeting with Gareth: see email from Gareth 17 March 2014
+DEADLINE: get started on this before 9 May 
 
 <========================================================================================>
 
@@ -107,7 +53,6 @@ T276
 Swing (pendulum) activity
 --------------------------
 need to add code to degrade in IE8
-need to submit for testing
 apologise to Jon Owen and ask if he wants to submit reworked images
 
 Come up with some wording for: Carol Morris and David Sharp - to explain the limitations of the swing and how it might be used. Show this to Stephen Jones before sending to Carol and David.
@@ -124,9 +69,27 @@ Drag and Drop activity
 worry about size - could it be split?
 Paul Whittingham will send spec.
 
-Mind Map
---------
-see Jane's mail: 23 March for some specs.
+'Postits' Activity
+------------------
+see my mail: 11 April for some specs.
+see Janes mail 7 May for useful JS library for saving the canvas
+
+mk1
+---
+(block 2)
+- single user
+- uses supplied bg. image (not changeable by users)
+- can save to VLE
+- works across multiple SC documents
+
+mk2
+---
+(block 3)
+- multi-user
+- user(s) can set bg. image via a url in the same domain
+- export to gif/jpeg for saving/printing
+- identify contributors
+- more (from email referred to above)?
 
 <========================================================================================>
 
@@ -140,6 +103,8 @@ needs reworking for a future presentation
 100 students max. (so should be ok for javascript reading-in of record data)
 see mail from Frances Walton 26 March 2014
 
+Dinar would like it a bit wider if possible.
+
 VLE Blog
 --------
 Can a structure be imposed? At present, students' entries for different parts of the course are mixed up with each other.
@@ -148,8 +113,37 @@ Can a structure be imposed? At present, students' entries for different parts of
 
 <========================================================================================>
 
-E304
-====
-Reply to Sarah North about highlighting activities.
-mail: 31 January
+Y033
+==== Lindsey for deadlines
+Open Design Studio - preparing the 14B presentation : deadline Wednesday 12 March (??)
+---------------------------------------------------
+
+share : hsc-y033 (nighthawk/palmcreeper)
+
+Need to get spreadsheet from Online Services with Tutor/Student Allocations (the 'TSA table').
+They get it from Circe.
+This has been done for 13J - find out when it needs to be done for 14B.
+
+The PHP script ( importTSA.php ? ) fills the:
+ .. groupmembers and
+ .. groups 
+ tables. 
+ If there are missing oucus, can get those from the VLE site (click on the Users link)
+ Check Sams files.
+ 
+Open Design Studio - examples page
+----------------------------------
+- Tina Forbes created the page and called it: "Y033 module team"
+- you can find it by using the search
+- would like to copy this over from 13J to 14B
+- lose the student comments
+- should be a matter of: a) copying the images; b) running a query to *copy* the entries in the image table
+
+Open Design Studio - setting up for examiners
+---------------------------------------------
+check if Adrian had a response from exams
+what actually gets assessed?
+who can see what?
+
+<========================================================================================>
 

@@ -1,0 +1,5 @@
+Openness: 20
+Conscientiousness: 32
+Extroversion: 32
+Agreeableness: 16
+Sensitivity: 32

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Document conversion from RTF source using upCast (c) www.infinity-loop.de -->
+<document>
+<documentinfo>
+  <property name="title" value="HSC CMA question type: Drag and drop " />
+  <property name="author" value="ij79" />
+  <property name="operator" value="jcl256" />
+  <property name="creationTime" value="Fri, 29 Feb 2008 14:24:00 GMT" />
+  <property name="revisionTime" value="Fri, 29 Feb 2008 14:24:00 GMT" />
+  <property name="lastPrintTime" value="Tue, 11 Dec 2007 18:23:00 GMT" />
+  <property name="editingMinutes" value="2" />
+  <property name="numberOfPages" value="4" />
+  <property name="numberOfWords" value="1325" />
+  <property name="numberOfChars" value="7558" />
+  <property name="company" value="Open University" />
+  <property name="numberOfCharsWS" value="8866" />
+</documentinfo>
+
+<part>
+  <pagefooter type="oddpages">
+    <par kind="footer" halign="left"><inline kind="fontsize" value="10">Ingrid Nix, &#160;&#160;26-10-07</inline></par>
+    <par kind="footer" halign="left"><inline kind="fontsize" value="10">Page </inline><gentext kind="PAGE"><inline kind="fontsize" value="10">3</inline></gentext><inline kind="fontsize" value="10"> of </inline><gentext kind="NUMPAGES"><inline kind="fontsize" value="10">6</inline></gentext></par>
+  </pagefooter>
+  <section level="1">
+    <heading kind="heading 1" level="1"><target name="_Toc181153803" /><target name="_Toc169511869" />HSC Examples of CMA questions types &#8211; Drag and drop </heading>
+    <par kind="Normal" halign="left">Any rows highlighted grey below do NOT need author input.</par>
+    <table>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Qs LOG</inline></inline></par>
+        </cell>
+        <cell valign="center" width="340">
+          <par kind="Body Text" halign="left">K216 CMA 53.7 and 43.7</par>
+        </cell>
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Reference</inline></inline></par>
+        </cell>
+        <cell valign="center" width="340">
+          <par kind="Body Text" halign="left">OM-DD-S    </par>
+        </cell>
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Qs Name</inline></par>
+        </cell>
+        <cell valign="center" width="340">
+          <par kind="Normal" halign="left">VarietyIntextRef</par>
+        </cell>
+      </row>
+      <row>
+        <cell cellbgcolor="#e0e0e0" valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Official use only: Unique identifier</inline></par>
+        </cell>
+        <cell cellbgcolor="#e0e0e0" valign="center" width="340">
+          <par kind="Body Text" halign="left">A code will be inserted here to represent this question on the database [IL48] </par>
+        </cell>
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Question text</inline></par>
+        </cell>
+        <cell valign="center" width="340">
+          <par kind="Body Text" halign="left">You are a K216 student writing an assignment and want to insert in-text references to correspond to the end of text references you have already prepared. Order the details below so that the in-text references are correct, according to your course Assessment Guide.</par>
+        </cell>
+      </row>
+      <row>
+        <cell cellbgcolor="#e0e0e0" valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Official use only: Instruction text</inline></par>
+        </cell>
+        <cell cellbgcolor="#e0e0e0" valign="center" width="340">
+          <par kind="comment" halign="left">This tells students how to interact on screen for this particular question type. Default text:</par>
+          <par kind="Body Text" halign="left">Use the mouse to drag and drop the boxed words into the empty spaces. Alternatively, use the tab key to select an empty space, then use the spacebar to cycle through the options. </par>
+        </cell>
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Body Text" halign="left"><inline kind="fontsize" value="11">Accessible question text </inline><inline kind="bold">(only for questions with images)</inline></par>
+        </cell>
+        <cell valign="center" width="340">
+          <par kind="Body Text" halign="left">n/a</par>
+        </cell>
+      </row>
+      <row>
+        <cell cellbgcolor="#e0e0e0" valign="center" width="97">
+          <par kind="Body Text" halign="left"><inline kind="fontsize" value="11">Official use only: Accessible Instruction text</inline></par>
+        </cell>
+        <cell cellbgcolor="#e0e0e0" valign="center" width="340">
+          <par kind="comment" halign="left">This tells students with accessibility needs how to interact on screen for this particular question type. Default text is:</par>
+          <par kind="Body Text" halign="left">Select the appropriate item from the drop-down list.</par>
+        </cell>
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Screen display </inline></par>
+        </cell>
+        <cell valign="center" width="340">
+          <par kind="Normal" halign="left"><inline kind="textcolor" value="6"><inline kind="splaceholder">[ 1 ]</inline></inline></par>
+          <par kind="Normal" halign="left"></par>
+          <par kind="Normal" halign="left"><inline kind="bold">References</inline></par>
+          <par kind="Normal" halign="left"></par>
+          <par kind="Normal" halign="left"><inline kind="textcolor" value="6"><inline kind="splaceholder">[ 3 ]</inline></inline></par>
+        </cell>
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Copyright details</inline></par>
+        </cell>
+        <cell valign="center" width="340"
+         />
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Image file name:</inline></par>
+        </cell>
+        <cell valign="center" width="340"
+         />
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Accessible alternative text</inline></par>
+        </cell>
+        <cell valign="center" width="340"
+         />
+      </row>
+      <row>
+        <cell valign="center" width="97">
+          <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Options &#8211; mixed up (for draggable text-boxes or drop-down menu items).</inline></par>
+        </cell>
+        <cell valign="center" width="340">
+          <par kind="Normal" halign="left"><inline kind="textcolor" value="6"><inline kind="splaceholder">[ 2 ]</inline></inline></par>
+        </cell>
+      </row>
+    </table>
+    <section level="2">
+      <heading kind="heading 2" level="2">Feedback</heading>
+      <table>
+        <row>
+          <cell colspan="2" cellbgcolor="#d9d9d9" valign="center" width="437">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Feedback &#8211; the information below will vary depending on whether the question model is M-### or OM-###</inline></par>
+          </cell>
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Indicate wrong answer by (please select)</inline></inline></par>
+          </cell>
+          <cell valign="center" width="340">
+            <par kind="Normal" halign="left"><inline kind="font" value="Wingdings">&#9830;</inline> Incorrect options to jump out of wrong locations</par>
+            <par kind="Normal" halign="left"><inline kind="font" value="Wingdings">&#9830;</inline> Ticks and crosses visuals used to indicate right/wrong answers</par>
+          </cell>
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Image files to be used (ref. for editor)</inline></inline></par>
+          </cell>
+          <cell valign="center" width="340">
+            <par kind="Normal" halign="left">n/a</par>
+          </cell>
+        </row>
+        <row>
+          <cell cellbgcolor="#e0e0e0" valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Feedback after incorrect 1</inline><inline kind="superscript"><inline kind="bold">st</inline></inline><inline kind="bold"> attempt</inline></inline></par>
+          </cell>
+          <cell cellbgcolor="#e0e0e0" valign="center" width="340">
+            <par kind="comment" halign="left">Default: You&#8217;ve found &lt;#&gt; with &lt;#&gt; to go. Correct those that are wrong or incomplete. </par>
+          </cell>
+        </row>
+        <row>
+          <cell cellbgcolor="#e0e0e0" valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Feedback after incorrect 2</inline><inline kind="superscript"><inline kind="bold">nd</inline></inline><inline kind="bold"> attempt</inline></inline></par>
+          </cell>
+          <cell cellbgcolor="#e0e0e0" valign="center" width="340">
+            <par kind="comment" halign="left">Default: You&#8217;ve found &lt;A&gt;, &lt;B&gt; and &lt;D&gt;.</par>
+          </cell>
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Feedback 2 general comment (optional)</inline></inline></par>
+          </cell>
+          <cell valign="center" width="340"
+           />
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Feedback after incorrect 3</inline><inline kind="superscript"><inline kind="bold">rd</inline></inline><inline kind="bold"> attempt</inline></inline></par>
+          </cell>
+          <cell valign="center" width="340"
+           />
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Final answer (the student has either got it right or got it wrong 3 times, so this is the last comment before they leave)</inline></inline></par>
+          </cell>
+          <cell valign="center" width="340">
+            <par kind="Normal" halign="left">The correct answer is:</par>
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"></inline></par>
+            <par kind="Normal" halign="left"><inline kind="textcolor" value="6"><inline kind="splaceholder">[ 4 ]</inline></inline></par>
+          </cell>
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Hints/general comment</inline></inline></par>
+          </cell>
+          <cell valign="center" width="340"
+           />
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11"><inline kind="bold">Course reference</inline></inline></par>
+          </cell>
+          <cell valign="center" width="340">
+            <par kind="Normal" halign="left"><inline kind="font" value="Arial">K113 ICT Sessions 14 and 15 and in your course Assessment Guide referencing guidance.</inline></par>
+          </cell>
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Notes for editor or programmer on Plain mode adaptation</inline></par>
+          </cell>
+          <cell valign="center" width="340"
+           />
+        </row>
+        <row>
+          <cell valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Additional author comments</inline></par>
+          </cell>
+          <cell valign="center" width="340">
+            <par kind="Normal" halign="left">These need to keep the formatting as above (ie punctuation included in the drag box)</par>
+          </cell>
+        </row>
+        <row>
+          <cell cellbgcolor="#e0e0e0" valign="center" width="97">
+            <par kind="Normal" halign="left"><inline kind="fontsize" value="11">Official use only</inline></par>
+          </cell>
+          <cell cellbgcolor="#e0e0e0" valign="center" width="340">
+            <par kind="Normal" halign="left"><inline kind="font" value="Wingdings">&#9830;</inline> Make this question available on HSC shared resource</par>
+          </cell>
+        </row>
+      </table>
+      <par kind="Normal" halign="left"></par>
+    </section>
+    <section level="2">
+      <heading kind="heading 2" level="2">Dataset</heading>
+      <par kind="Normal" halign="left">CMA 53 2008</par>
+      <par kind="Normal" halign="left"></par>
+      <table>
+        <row>
+          <cell valign="center" width="31">
+            <par kind="Normal" halign="left">53-2008</par>
+          </cell>
+          <cell valign="center" width="80">
+            <par kind="Normal" halign="left">This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top</inline></inline></inline></inline>). The <inline kind="bold">legal </inline>requirements are that dsjf shf k ;ljgf; hgf; dfhg jhg k. dsjf Trwt rtb D (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top</inline></inline></inline></inline> C30 (EW)). This was discussed by <inline kind="bold">Robinson </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top</inline></inline></inline></inline> &lt;pp. 8-9&gt;).</par>
+          </cell>
+          <cell valign="center" width="75">
+            <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top </inline></inline></inline>Offprints, </par>
+            <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top </inline></inline></inline>Robinson, </par>
+            <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top </inline></inline></inline>Law resources,</par>
+            <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top </inline></inline></inline>track 2, </par>
+            <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline> K113, </par>
+            <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline> Audio 1,</par>
+            <par kind="comment" halign="left">&lt; pp. 8-9&gt; </par>
+          </cell>
+          <cell valign="center" width="149">
+            <par kind="Normal" halign="left">&lt; Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Law Resource [online], The Open University. Available from: http://learn.open.ac.uk/k113-07 [Accessed: 12 May 2007].</par>
+            <par kind="Normal" halign="left">Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Audio 1, track 2, &#39;Untitled&#39;, Milton Keynes, The Open University.</par>
+            <par kind="Normal" halign="left">Robinson, L. (2002) &#39;Social work through the life course&#39; in K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Offprints, Milton Keynes, The Open University.&gt;</par>
+            <par kind="Normal" halign="left"></par>
+          </cell>
+          <cell valign="center" width="100">
+            <par kind="Normal" halign="left">This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, Audio 1, track 2). The <inline kind="bold">legal </inline>requirements are that dsjf shf k <inline kind="bold">web page </inline>;ljgf; hgf; dfhg jhg k. dsjf Trwt rtb D (Law Resource, C30 (EW)). This was discussed by <inline kind="bold">Robinson </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (Robinson, K113, Offprints, pp. 8-9).</par>
+          </cell>
+        </row>
+        <row>
+          <cell valign="center" width="31"
+           />
+          <cell valign="center" width="80"
+           />
+          <cell valign="center" width="75"
+           />
+          <cell valign="center" width="149"
+           />
+          <cell valign="center" width="100"
+           />
+        </row>
+        <row>
+          <cell valign="center" width="31"
+           />
+          <cell valign="center" width="80"
+           />
+          <cell valign="center" width="75"
+           />
+          <cell valign="center" width="149"
+           />
+          <cell valign="center" width="100"
+           />
+        </row>
+      </table>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left">This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top</inline></inline></inline></inline>). The <inline kind="bold">legal </inline>requirements are that dsjf shf k ;ljgf; hgf; dfhg jhg k. dsjf Trwt rtb D (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top</inline></inline></inline></inline> C30 (EW)). This was discussed by <inline kind="bold">Robinson </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top</inline></inline></inline></inline> &lt;pp. 8-9&gt;).</par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left">References dataset:</par>
+      <par kind="Normal" halign="left"><inline kind="bold">Correct answer:</inline></par>
+      <par kind="Normal" halign="left"> </par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="comment" halign="left">CMA 43 2008</par>
+      <par kind="Normal" halign="left">This was discussed by <inline kind="bold">Prevatt Goldstein </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top</inline></inline></inline></inline> &lt;p. 79&gt;).This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top</inline></inline></inline></inline>). The <inline kind="bold">legal </inline>requirements are that dsjf shf k ;ljgf; hgf; dfhg jhg k. dsjf Trwt rtbb (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top</inline></inline></inline></inline> C30 (EW)). </par>
+      <par kind="dragbox" halign="left"></par>
+      <par kind="dragbox" halign="left"></par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top </inline></inline></inline>Prevatt Goldstein, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top </inline></inline></inline>track 1,</par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top </inline></inline></inline>Offprints, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline> K113, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top </inline></inline></inline>Law resources,</par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline> Audio 1,</par>
+      <par kind="dragbox" halign="left">&lt; p. 79&gt; </par>
+      <par kind="Normal" halign="left">References dataset:</par>
+      <par kind="Normal" halign="left">&lt; Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Law Resource [online], The Open University. Available from: http://learn.open.ac.uk/k113-07 [Accessed: 12 May 2007].</par>
+      <par kind="Normal" halign="left">Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Audio 1, track 1, &#39;Untitled&#39;, Milton Keynes, The Open University.</par>
+      <par kind="Normal" halign="left">Prevatt Goldstein, B. (2002) &#39;Direct work with black children with a white parent&#39; in K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Offprints, Milton Keynes, The Open University.&gt;</par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left"><inline kind="bold">Correct answer:</inline></par>
+      <par kind="Normal" halign="left"> </par>
+      <par kind="Normal" halign="left">This was discussed by <inline kind="bold">Prevatt Goldstein </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (Prevatt Goldstein, K113, Offprints, p. 79). This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, Audio 1, track 2). The <inline kind="bold">legal </inline>requirements are that dsjf shf k <inline kind="bold">web page </inline>;ljgf; hgf; dfhg jhg k. dsjf Trwt rtbb (Law Resource, C30 (EW)). </par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="comment" halign="left">CMA 43 2009</par>
+      <par kind="Normal" halign="left">The <inline kind="bold">legal </inline>requirements are that dsjf shf k ;ljgf; hgf; dfhg jhg k. dsjf Trwt rtb D (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top</inline></inline></inline></inline> C30 (EW)). This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top</inline></inline></inline></inline>). This was discussed by <inline kind="bold">Howe </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top</inline></inline></inline></inline> &lt;p. 22&gt;).</par>
+      <par kind="dragbox" halign="left"></par>
+      <par kind="dragbox" halign="left"></par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top </inline></inline></inline>Howe, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top </inline></inline></inline>track 1,</par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top </inline></inline></inline>Offprints, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline> K113, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top </inline></inline></inline>Law resources,</par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline> Audio 1,</par>
+      <par kind="dragbox" halign="left">&lt; p. 22&gt; </par>
+      <par kind="Normal" halign="left">References dataset:</par>
+      <par kind="Normal" halign="left">&lt;Howe, D. (2002) &#39;Relating theory to practice&#39; in K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Offprints, Milton Keynes, The Open University.</par>
+      <par kind="Normal" halign="left">Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Law Resource [online], The Open University. Available from: http://learn.open.ac.uk/k113-07 [Accessed: 12 May 2007].</par>
+      <par kind="Normal" halign="left">Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Audio 1, track 1, &#39;Untitled&#39;, Milton Keynes, The Open University.&gt;</par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left"><inline kind="bold">Correct answer:</inline></par>
+      <par kind="Normal" halign="left"> </par>
+      <par kind="Normal" halign="left">The <inline kind="bold">legal </inline>requirements are that dsjf shf k <inline kind="bold">web page </inline>;ljgf; hgf; dfhg jhg k. dsjf Trwt rtb D (Law Resource, C30 (EW)). This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, Audio 1, track 2). This was discussed by <inline kind="bold">Howe </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (Howe, K113, Offprints, p. 22).</par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="comment" halign="left">CMA 43 2010</par>
+      <par kind="Normal" halign="left">This was discussed by <inline kind="bold">Prevatt Goldstein </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top</inline></inline></inline></inline> &lt;p. 83&gt;). The <inline kind="bold">legal </inline>requirements are that dsjf shf k ;ljgf; hgf; dfhg jhg k. dsjf Trwt rtb D (<inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top</inline></inline></inline></inline> C30 (EW)). This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline></inline> <inline kind="fontsize" value="11"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top</inline></inline></inline></inline>).</par>
+      <par kind="dragbox" halign="left"></par>
+      <par kind="dragbox" halign="left"></par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">D top </inline></inline></inline>Prevatt Goldstein, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">B top </inline></inline></inline>track 2,</par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">F top </inline></inline></inline>Offprints, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">E top</inline></inline></inline> K113, </par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">C top </inline></inline></inline>Law resources,</par>
+      <par kind="dragbox" halign="left"><inline kind="textcolor" value="2"><inline kind="bold"><inline kind="dragtarget">A top</inline></inline></inline> Audio 1,</par>
+      <par kind="dragbox" halign="left">&lt; p. 83&gt; </par>
+      <par kind="Normal" halign="left">References dataset:</par>
+      <par kind="Normal" halign="left">&lt; Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Law Resource [online], The Open University. Available from: http://learn.open.ac.uk/k113-07 [Accessed: 12 May 2007].</par>
+      <par kind="Normal" halign="left">Open University (2006) K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Audio 1, track 2, &#39;Untitled&#39;, Milton Keynes, The Open University.</par>
+      <par kind="Normal" halign="left">Prevatt Goldstein, B. (2002) &#39;Direct work with black children with a white parent&#39; in K113 <inline kind="italic">Foundations for Social Work Practice, </inline>Offprints, Milton Keynes, The Open University.&gt;</par>
+      <par kind="Normal" halign="left"></par>
+      <par kind="Normal" halign="left"><inline kind="bold">Correct answer:</inline></par>
+      <par kind="Normal" halign="left">This was discussed by <inline kind="bold">Prevatt Goldstein </inline>in<inline kind="bold"> </inline>aadf.k hd.ghds.jgh kjg .fjkg .jg jf.jg a.dkjgvkd akjgfh adkjgh ajdfgh jfdhg jhfg gajh lagh fr (Prevatt Goldstein, K113, Offprints, p. 83).</par>
+      <par kind="Normal" halign="left">The <inline kind="bold">legal </inline>requirements are that dsjf shf k <inline kind="bold">web page </inline>;ljgf; hgf; dfhg jhg k. dsjf Trwt rtb D (Law Resource, C30 (EW)). This is echoed in an <inline kind="bold">audio</inline> case study afgh kjh. afdjhg jkfdhg jdfh. Djsfh khfg jhfd . udshfg djghf jg fdj kf lahf h;jash (K113, Audio 1, track 2).</par>
+      <par kind="Normal" halign="left"></par>
+    </section>
+  </section>
+</part>
+</document>

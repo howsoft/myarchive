@@ -1,0 +1,104 @@
+<!---
+Question Type = drag1
+Answer Order = d, b, c, a
+-->
+	
+<question class="b825saqs.q02.B825Question">
+<scoring><marks>3</marks></scoring>
+
+ 	<layout>
+  		<row height="500"/>
+  		<column width="592"/>
+   	</layout>
+ 
+ 	<!-- Defines the left-hand question box -->
+ 	<box gridx="0" gridy="0" id="inputbox" background="input">
+			<image id="pyramid" display="yes" filePath="matrix.png" alt="matrix">
+			
+			<!-- //////// drag boxes ////////////// -->
+			<iplace left="10" top="40" label="None">
+				<dragbox id="aa">short-term, <break/> intense <break/> relationships</dragbox>
+			</iplace>
+			
+			<iplace left="10" top="100" label="None">
+				<dragbox id="bb">long-term,<break/> intense<break/> relationships</dragbox>
+			</iplace>
+			
+			<iplace left="10" top="160" label="None">
+				<dragbox id="cc">short-term,<break/> arm's-length<break/> relationships</dragbox>
+			</iplace>
+			
+			<iplace left="10" top="220" label="None">
+				<dragbox id="dd">long-term,<break/> arm's-length<break/> relationships</dragbox>
+			</iplace>
+			
+			<!-- //////// drop boxes ////////////// -->
+			<iplace left="340" top="70" label="">
+		  		<dropbox id="a"/>
+			</iplace>
+			
+			<iplace left="460" top="70" label="">
+		  		<dropbox id="b"/>
+			</iplace>
+			
+			<iplace left="340" top="170" label="">
+		  		<dropbox id="c"/>
+			</iplace>
+			
+			<iplace left="460" top="170" label="">
+		  		<dropbox id="d"/>
+			</iplace>
+			
+			</image>
+	<gap/>			
+		<t id="instructions">
+			<t>This question deals with Involvement and Continuity of Supplier relationships.</t><gap/><t>Below are the types of relationships/levels that the model suggests are available. Put these into the correct quadrants of the matrix.</t><gap/>
+	  	</t>
+	  	<t id="showanswer" display="no">
+	  	FOR INFORMATION ONLY (Click the Next button when you have finished.)
+	  	</t>
+	  	<gap/>
+	 	<button id="submitButton" action="actionSubmit" label="Check"/>
+		<button id="skipButton" action="actionGiveUp" label="Skip this Question"/>
+		<button id="continueButton" action="actionOK" label="Next" display="no"/>
+ 	</box>
+
+<box gridx="0" gridy="0" background="answer" id="answerbox" display="no">
+  	<t id="wrong">Your answer is <t id="still">still</t> not correct.</t>
+	<t id="right">Your answer is correct.</t>
+	<t id="pass">You passed on this question.
+	<gap/>
+	You can click on the Answer button if you would like to see the correct answer.
+	Or click Next to continue.</t>	
+	
+	<gap/>
+	
+	<t id="feedback">
+		<t id="first_try">
+		Have another go.<gap/>
+		When you click OK, your correct answer(s) will remain in position. Any incorrect ones will return to their starting positions.
+		</t>
+		<t id="second_try">
+		One more try left.<gap/>
+		When you click OK, your correct answer(s) will remain in position. Any incorrect ones will return to their starting positions.
+		</t>
+	</t>	
+	 
+	<t id="got_it_right" display="no">
+	You can click the Answer button if you want to see the correct answer again. Or click Next to continue.
+	</t>
+	<t id="always_wrong" display="no">
+	You can click the Answer button if you want to see the correct answer. Or click Next to continue.
+	</t>
+   	<gap/>
+   	
+ 	<t id="answer">
+  	<gap/>
+  	<button id="answerbutton" action="showAnswer" label="Answer" />
+ 	</t>
+		
+	<button id="ok" action="actionOK" label="OK"/>
+	<button id="next" action="actionOK" label="Next" display="no"/>
+  </box>
+ 
+</question>

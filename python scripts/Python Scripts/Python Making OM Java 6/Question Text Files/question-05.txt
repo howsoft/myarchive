@@ -1,0 +1,17 @@
+
+Question Type = drag1
+
+Starting Order = a,b,c,d,e,f
+Correct Order = f,e,d,c,b,a
+
+Class = elephant.testing.q05.Test
+Height = 380
+
+Prompt = The trouble with you is, you don't know when to leave well alone.
+
+Something
+Something else
+A pussy cat
+Alligator soup
+Monkey breath
+Double Trouble

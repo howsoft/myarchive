@@ -1,0 +1,84 @@
+<!--
+Question Type = radio1
+Answer = c
+-->
+<question class="b825saqs.q01.B825Question">
+
+ <scoring><marks>3</marks></scoring>
+
+ <layout>
+  <row height="480"/>
+  <column width="350"/>  
+ </layout>
+ 
+ <!-- Defines the left-hand question box -->
+ <box gridx="0" gridy="0" id="inputbox" background="input">
+ 
+
+<t>
+<t>We talk about three kinds of mental trap in which managers find themselves.</t><gap/><t>the predictability trap, the crocodile trap and the market trap. Which of the following statements best describes the customer trap?</t><gap/>
+</t>
+  	
+	<gap/>
+	
+	<table cols="2" rows="4">
+<row>
+<t><radiobox id="boxa" group="g1"></radiobox></t>
+<t>Fish and chips</t>
+</row><row>
+<t><radiobox id="boxb" group="g1"></radiobox></t>
+<t>The marketing function is to provide a product that meets customer needs.</t>
+</row><row>
+<t><radiobox id="boxc" group="g1"></radiobox></t>
+<t>Consumer behaviour is complex, variable and incompletely understood.</t>
+</row><row>
+<t><radiobox id="boxd" group="g1"></radiobox></t>
+<t>Brands are a mechanism for providing functional need-satisfaction.</t>
+</row>
+</table>
+	 
+<gap/> 
+  <centre>
+   <button action="actionSubmit" label="Submit"/>
+   <button action="actionGiveUp" label="Skip"/>
+  </centre>  
+  
+ </box>
+
+ <!-- Defines the right-hand answer box, which is initially hidden  -->
+ <box gridx="0" gridy="0" id="answerbox" display="no" background="answer">
+   
+	<t id="wrong">Your answer is <t id="still">still</t> not correct.</t>
+	<t id="right">Your answer is correct.</t>
+	<t id="pass">You passed on this question. The correct answer was:</t>	
+	<gap/>
+	
+	<t id="feedback">
+		<t id="first_try">
+		Have another go.
+		<gap/>
+		</t>
+		<t id="second_try">
+		One more try left.
+		<gap/>
+		</t>
+		<t id="last_try">
+		The answer was:
+		<gap/>
+		</t>
+		
+		
+	</t>	 
+   
+  <t id="answer">
+  Consumer behaviour is complex, variable and incompletely understood.
+  </t>
+  <gap/>
+		
+	<centre>
+	 <button action="actionOK" label="OK"/>
+	</centre>  
+   
+ </box>
+ 
+</question>

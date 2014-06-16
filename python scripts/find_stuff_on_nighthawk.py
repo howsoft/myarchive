@@ -1,7 +1,7 @@
 
 dir_path = "\\\\nighthawk\\hsc-y033\\ods\\14b"
 
-searchtext = """Location"""
+searchtext = """var_dump"""
 
 searchtext2 = """header"""
 
@@ -48,8 +48,8 @@ def print_tree(tree_root_dir):
                                 linecount = 0
                                 for line in lines:
                                         linecount += 1
-                                        if (searchtext in line.lower()) and (searchtext2 in line.lower()):
-                                        #if (searchtext in line.lower()):
+                                        #if (searchtext in line.lower()) and (searchtext2 in line.lower()):
+                                        if (searchtext in line.lower()):
                                         #if (searchtext2 in line.lower()):
                                                 found_items.append('line: ' + str(linecount) + ' -> ' + fullpath)
                                                 break

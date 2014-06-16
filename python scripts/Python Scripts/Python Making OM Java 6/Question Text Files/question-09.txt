@@ -1,0 +1,21 @@
+
+Question Type = drag1
+
+Starting Order = a,b,c,d,e,f,g,h,i,j
+Correct Order = c,b,g,i,a,f,h,d,j,e
+
+Class = elephant.testing.q09.Test
+Height = 480
+
+Prompt = Place the following in their correct order.
+
+Mushy Peas
+Contingency plans
+Appendices
+Introduction
+Evaluation
+Resource implications
+Summary
+Background analysis
+Managing implementation
+Purpose of the plan

@@ -1,7 +1,11 @@
 
 #dir_path = "\\\\userdata\\documents4\\hgd4\\Desktop\\GitHub"
 
-dir_path = "\\\\palmcreeper\\hsc-y033\\ods\\14b"
+#\\palmcreeper\fels-e214
+
+#\\nighthawk\fels-e207\showandtell_14j
+
+dir_path = "\\\\nighthawk\\fels-e207\\showandtell_14j"
 
 import os
 
@@ -22,11 +26,12 @@ def print_tree(tree_root_dir):
                 if counter > safety:
                         exit()
 
-                print dirpath
+                #print dirpath
                
                 for name in namelist:
                         
-                        if 'sams' in name:
+                        if '.sams' in name:
+                                print
                                 print os.path.join(dirpath, name)
                         
 

@@ -1,0 +1,15 @@
+
+Question Type = drag1
+
+Answer Order = d, b, c, a
+
+Class = b825saqs.q99.B825Question
+
+Paragraph = This question deals with Involvement and Continuity of Supplier relationships.
+Paragraph = Below are the types of relationships/levels that the model suggests are available. Put these into the correct quadrants of the matrix.
+
+Short-term, ** intense ** relationships
+Long-term,** intense** relationships
+Short-term,** arm's-length** relationships
+Long-term,** arm's-length** relationships
+

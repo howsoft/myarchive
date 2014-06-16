@@ -1,0 +1,126 @@
+<!--
+Question Type = drag1
+Starting Order = a,b,c,d,e,f,g,h,i,j
+Correct Order = c,b,g,i,a,f,h,d,j,e
+-->
+<question class="elephant.testing.q09.Test">
+	<scoring>
+		<marks>10</marks>
+	</scoring>
+	<layout>
+		<row height="480" />
+		<column width="446" />
+		<column width="146" />
+	</layout>
+	<box gridx="0" gridy="0" background="input" id="inputbox">
+	<gap/>
+	Place the following in their correct order.
+  <gap/>
+  <table cols="2" rows="10" left="1">
+
+<row>
+<t>
+	<dragbox id="a1">Mushy Peas</dragbox>
+</t>
+<t>
+	<dropbox id="a"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="a_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="b1">Contingency plans</dragbox>
+</t>
+<t>
+	<dropbox id="b"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="b_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="c1">Appendices</dragbox>
+</t>
+<t>
+	<dropbox id="c"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="c_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="d1">Introduction</dragbox>
+</t>
+<t>
+	<dropbox id="d"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="d_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="e1">Evaluation</dragbox>
+</t>
+<t>
+	<dropbox id="e"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="e_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="f1">Resource implications</dragbox>
+</t>
+<t>
+	<dropbox id="f"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="f_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="g1">Summary</dragbox>
+</t>
+<t>
+	<dropbox id="g"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="g_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="h1">Background analysis</dragbox>
+</t>
+<t>
+	<dropbox id="h"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="h_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="i1">Managing implementation</dragbox>
+</t>
+<t>
+	<dropbox id="i"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="i_cb" display="no"/>
+</t>
+</row>
+<row>
+<t>
+	<dragbox id="j1">Purpose of the plan</dragbox>
+</t>
+<t>
+	<dropbox id="j"/>
+	<image filePath="tick.gif" alt="ticked as correct" id="j_cb" display="no"/>
+</t>
+</row></table>
+<gap/>
+	<button action="actionSubmit" label="Check"/>
+	<button action="actionGiveUp" label="Skip this Question"/>
+</box>
+<box gridx="1" gridy="0" background="answer" id="answerbox" display="no">
+	<t id="wrong">Your answer is <t id="still">still</t> incorrect.</t>
+	<t id="right">Your answer is correct.</t>
+	<t id="pass">You passed on this question.</t>
+	<gap/>
+	<t id="feedback"/>
+	<gap/>
+	<t id="answer"></t>
+	<button id="ok" action="actionOK" label="OK"/>
+	<button id="next" action="actionOK" label="Next" display="no"/>
+</box>
+</question>

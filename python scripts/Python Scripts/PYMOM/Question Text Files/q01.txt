@@ -1,0 +1,20 @@
+
+Question Type = radio1
+
+Answer = c
+
+Paragraph = We talk about three kinds of mental trap in which managers find themselves.
+
+Paragraph = the predictability trap, the crocodile trap and the market trap. Which of the following statements best describes the customer trap?
+
+
+
+
+Fish and chips
+
+The marketing function is to provide a product that meets customer needs.
+
+Consumer behaviour is complex, variable and incompletely understood.
+
+Brands are a mechanism for providing functional need-satisfaction.
+

@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+
+<questionnaire>
+
+<questionnaire_name>B822 09E NEO-FFI</questionnaire_name>
+<faculty>Business School</faculty>
+<contact>Jane Henry 978987</contact>
+<identifier_code>B82209E</identifier_code>
+<blanks_allowed number="10" />
+<course>B822</course>
+<presentation>09E</presentation>
+<start_date>1/5/2009</start_date><!-- in this format 1/5/2009 -->
+<complete_date>31/10/2009</complete_date>
+
+
+<userdata>
+   
+    <occupation>
+        <choice>Sales/Marketing</choice>
+        <choice>Personnel</choice>
+        <choice>Finance</choice>
+        <choice>Production/Engineering</choice>
+        <choice>IT/Computing</choice>
+        <choice>Education/Training</choice>
+        <choice>Research &amp; Development</choice>
+        <choice>Administration</choice>
+        <choice>General Management</choice>
+        <choice>Consultancy</choice>
+        <choice>Other</choice>
+    </occupation>
+
+    <sector>
+        <choice>Private</choice>
+        <choice>Public/State</choice>
+        <choice>Voluntary/Not for profit</choice>
+    </sector>
+
+    <number_of_employees>
+        <choice>1-99</choice>
+        <choice>100-499</choice>
+        <choice>500-999</choice>
+        <choice>1000 or more</choice>
+        <choice></choice>
+    </number_of_employees>
+
+    <years_with_current_employer type="text_input" size="2" />
+
+    <nationality type="drop_down">
+        <choice>Europe</choice>
+        <choice>Britain</choice>
+        <choice>Ireland</choice>
+        <choice>West Europe(North)</choice>
+        <choice>Austria</choice>
+        <choice>Czechoslovakia</choice>
+        <choice>France</choice>
+        <choice>Germany</choice>
+        <choice>Italy</choice>
+        <choice>Netherlands</choice>
+        <choice>Romania</choice>
+        <choice>Russia</choice>
+        <choice>Switzerland</choice>
+        <choice>West Europe (South)</choice>
+        <choice>Central and Eastern Europe</choice>
+        <choice>Africa</choice>
+        <choice>Asia</choice>
+        <choice>Oceania</choice>
+        <choice>North America</choice>
+        <choice>Latin and South America</choice>
+        <choice>Other</choice>
+     </nationality>
+
+     <country_of_residence type="text_input" size="100" />
+
+     <age type="drop_down">
+         <choice>18-34</choice>
+         <choice>35-54</choice>
+         <choice>55 and over</choice>
+     </age>
+
+     <sex type="radiobutton">
+         <choice>Male</choice>
+         <choice>Female</choice>
+     </sex>
+
+    <date type="date_selector" />
+    
+</userdata>
+
+<question_options>
+	<option code="SD" value="Strongly Disagree" />
+	<option code="D" value="Disagree" />
+	<option code="N" value="Neither" />
+	<option code="A" value="Agree" />
+	<option code="SA" value="Strongly Agree" />
+</question_options>
+
+<questions_per_page number="10" />
+
+<question_traits>
+
+	<trait value="Sensitivity">
+		<question number="1" type="radiobutton" scoring="4,3,2,1,0" >I am not a worrier.</question>
+		<question number="6" type="radiobutton" scoring="0,1,2,3,4" >I often feel inferior to others.</question>
+		<question number="11" type="radiobutton" scoring="0,1,2,3,4">When I'm under a great deal of stress, sometimes I feel like I'm going to pieces.</question>
+		<question number="16" type="radiobutton" scoring="4,3,2,1,0">I rarely feel lonely or blue.</question>
+		<question number="21" type="radiobutton" scoring="0,1,2,3,4">I often feel tense and jittery.</question>
+		<question number="26" type="radiobutton" scoring="0,1,2,3,4">Sometimes I feel completely worthless.</question>
+		<question number="31" type="radiobutton" scoring="4,3,2,1,0">I rarely feel fearful or anxious.</question>
+		<question number="36" type="radiobutton" scoring="0,1,2,3,4">I often get angry at the way people treat me.</question>
+		<question number="41" type="radiobutton" scoring="0,1,2,3,4">Too often, when things go wrong, I get discouraged and feel like giving up.</question>
+		<question number="46" type="radiobutton" scoring="4,3,2,1,0">I am seldom sad or depressed.</question>
+		<question number="51" type="radiobutton" scoring="0,1,2,3,4">I often feel helpless and want someone else to solve my problems.</question>
+		<question number="56" type="radiobutton" scoring="0,1,2,3,4">At times I have been so ashamed I just wanted to hide.</question>		
+	</trait>
+	
+	<trait value="Extroversion">
+		<question number="2" type="radiobutton" scoring="0,1,2,3,4">I like to have a lot of people around me.</question>
+		<question number="7" type="radiobutton" scoring="0,1,2,3,4">I laugh easily.</question>
+		<question number="12" type="radiobutton" scoring="4,3,2,1,0">I don't consider myself especially "light-hearted".</question>
+		<question number="17" type="radiobutton" scoring="0,1,2,3,4">I really enjoy talking to people.</question>
+		<question number="22" type="radiobutton" scoring="0,1,2,3,4">I like to be where the action is.</question>
+		<question number="27" type="radiobutton" scoring="4,3,2,1,0">I usually prefer to do things alone.</question>
+		<question number="32" type="radiobutton" scoring="0,1,2,3,4">I often feel as if I'm bursting with energy.</question>
+		<question number="37" type="radiobutton" scoring="0,1,2,3,4">I am a cheerful, high-spirited person.</question>
+		<question number="42" type="radiobutton" scoring="4,3,2,1,0">I am not a cheerful optimist.</question>
+		<question number="47" type="radiobutton" scoring="0,1,2,3,4">My life is fast-paced.</question>
+		<question number="52" type="radiobutton" scoring="0,1,2,3,4">I am a very active person.</question>
+		<question number="57" type="radiobutton" scoring="4,3,2,1,0">I would rather go my own way than be a leader of others.</question>
+	</trait>
+	
+	<trait value="Openness">
+		<question number="3" type="radiobutton" scoring="4,3,2,1,0">I don't like to waste my time daydreaming.</question>
+		<question number="8" type="radiobutton" scoring="4,3,2,1,0">Once I find the right way to do something, I stick to it.</question>
+		<question number="13" type="radiobutton" scoring="0,1,2,3,4">I am intrigued by the patterns I find in art and nature.</question>
+		<question number="18" type="radiobutton" scoring="4,3,2,1,0">I believe letting students hear controversial speakers can only confuse and mislead them.</question>
+		<question number="23" type="radiobutton" scoring="4,3,2,1,0">Poetry has little or no effect on me.</question>
+		<question number="28" type="radiobutton" scoring="0,1,2,3,4">I often try new and foreign foods.</question>
+		<question number="33" type="radiobutton" scoring="4,3,2,1,0">I seldom notice the moods or feelings that different environments produce.</question>
+		<question number="38" type="radiobutton" scoring="4,3,2,1,0">I believe we should look to our religious authorities for decisions on moral issues.</question>
+		<question number="43" type="radiobutton" scoring="0,1,2,3,4">Sometimes when I am reading poetry or looking at a work or art, I feel a chill or wave of excitement.</question>
+		<question number="48" type="radiobutton" scoring="4,3,2,1,0">I have little interest in speculating on the nature of the universe or the human condition.</question>
+		<question number="53" type="radiobutton" scoring="0,1,2,3,4">I have a lot of intellectual curiosity.</question>
+		<question number="58" type="radiobutton" scoring="0,1,2,3,4">I often enjoy playing with theories or abstract ideas.</question>
+	</trait>
+	
+	<trait value="Agreeableness">
+		<question number="4" type="radiobutton" scoring="0,1,2,3,4">I try to be courteous to everyone I meet.</question>
+		<question number="9" type="radiobutton" scoring="4,3,2,1,0">I often get into arguments with my family and co-workers.</question>
+		<question number="14" type="radiobutton" scoring="4,3,2,1,0">Some people think I'm selfish and egotistical.</question>
+		<question number="19" type="radiobutton" scoring="0,1,2,3,4">I would rather cooperate with others than compete with them.</question>
+		<question number="24" type="radiobutton" scoring="4,3,2,1,0">I tend to be cynical and sceptical of others' intentions.</question>
+		<question number="29" type="radiobutton" scoring="4,3,2,1,0">I believe that most people will take advantage of you if you let them.</question>
+		<question number="34" type="radiobutton" scoring="0,1,2,3,4">Most people I know like me.</question>
+		<question number="39" type="radiobutton" scoring="4,3,2,1,0">Some people think of me as cold and calculating.</question>
+		<question number="44" type="radiobutton" scoring="4,3,2,1,0">I'm hard-headed and tough-minded in my attitudes.</question>
+		<question number="49" type="radiobutton" scoring="0,1,2,3,4">I generally try to be thoughtful and considerate.</question>
+		<question number="54" type="radiobutton" scoring="4,3,2,1,0">If I don't like people, I let them know it.</question>
+		<question number="59" type="radiobutton" scoring="4,3,2,1,0">If necessary, I am willing to manipulate people to get what I want.</question>
+</trait>
+
+	<trait value="Conscientiousness">
+		<question number="5" type="radiobutton" scoring="0,1,2,3,4">I keep my belongings neat and clean.</question>
+		<question number="10" type="radiobutton" scoring="0,1,2,3,4">I'm pretty good about pacing myself so as to get things done on time.</question>
+		<question number="15" type="radiobutton" scoring="4,3,2,1,0">I am not a very methodical person.</question>
+		<question number="20" type="radiobutton" scoring="0,1,2,3,4">I try to perform all the tasks assigned to me conscientiously.</question>
+		<question number="25" type="radiobutton" scoring="0,1,2,3,4">I have a clear set of goals and work toward them in an orderly fashion.</question>
+		<question number="30" type="radiobutton" scoring="4,3,2,1,0">I waste a lot of time before settling down to work.</question>
+		<question number="35" type="radiobutton" scoring="0,1,2,3,4">I work hard to accomplish my goals.</question>
+		<question number="40" type="radiobutton" scoring="0,1,2,3,4">When I make a commitment, I can always be counted on to follow through.</question>
+		<question number="45" type="radiobutton" scoring="4,3,2,1,0">Sometimes I'm not as dependable or reliable as I should be.</question>
+		<question number="50" type="radiobutton" scoring="0,1,2,3,4">I am a productive person who always get the job done.</question>
+		<question number="55" type="radiobutton" scoring="4,3,2,1,0">I never seem to be able to get organized.</question>
+		<question number="60" type="radiobutton" scoring="0,1,2,3,4">I strive for excellence in everything I do.</question>
+	</trait>
+	
+</question_traits>
+
+</questionnaire>

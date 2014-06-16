@@ -1,0 +1,19 @@
+
+Question Type = drag1
+
+Starting Order = a,b,c,d,e,f,g,h,i
+Correct Order = c,b,g,i,a,f,h,d,e
+
+Class = elephant.testing.q10.Test
+Height = 480
+
+Fish and Mash
+Contingency plans
+Appendices
+Introduction
+Evaluation
+Resource implications
+Summary
+Background analysis
+Managing implementation
+
